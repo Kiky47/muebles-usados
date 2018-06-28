@@ -3,17 +3,63 @@
   padding:0;
 }
 body{
-  background-color: blue;
+  background-image: url("https://c.pxhere.com/photos/f5/2e/wall_lamp_grunge_interior_design_decor_light_room-713849.jpg!d");
   color: white;
 }
 
 header {
-    background-color: #000;
-    padding: 30px;
+  background-image: url("https://c.pxhere.com/photos/8d/33/wood_structure_texture_grain_brown_wood_grain_background_tree-828418.jpg!d");
+  padding: 2px;
     text-align: center;
-    font-size: 25;
+    font-size: 30px;
     color: white;
+  font-family: 'Oswald', sans-serif;
 }
+
+    nav {
+    position: absolute;
+    left : 8px;
+    right: 8px;
+    width : 98%;
+   
+    background-color: #000;
+    padding: 0px;
+    min-width :100% ;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    }
+
+    nav ul {
+    margin : 0;
+    width : 940px;
+    list-style : none;
+     
+    } 
+    nav ul li {
+    float : left;
+       
+    } 
+
+    nav ul li a { 
+    display : block;
+    width : 100px;
+    line-height : 40px;
+    text-align : center;
+    text-decoration : none;
+    color : #ccc; 
+    }
+    nav ul li a:hover {
+    color : #fff;
+    background:#339;
+    border:2px solid #06c;
+    
+    }
+    nav ul li.selected a {
+    color : #fff;
+      
+    }
+
+
 
 li{
    list-style-type: none;
@@ -23,6 +69,7 @@ li{
 .listado{
   display: inline-block;
   border-radius: 10px;
+  margin: 100px 40px 10px 70px;
   padding: 40px;
   background-color: white;
 }
@@ -39,50 +86,7 @@ li{
 }
 footer {
     background-color: #000;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     color: white;
 }
-/* nav ul {
-    list-style-type: georgian;
-    padding: 10px;
-  text-align: center;
-} */
-    nav {
-    position: absolute;
-    left : 0;
-    width : 80%;
-    background : #000;
-    padding: 5px;
-    min-width :100%;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    }
-    nav ul {
-    margin : 0;
-    width : 940px;
-    list-style : none;
-    }
-    nav ul li {
-    float : left;
-    
-    }
-    nav ul li a { 
-    display : block;
-    margin-right : 20px;
-    width : 140px;
-    font-size : 14px;
-    line-height : 44px;
-    text-align : center;
-    text-decoration : none;
-    color : #ccc; 
-    }
-    nav ul li a:hover {
-    color : #fff;
-    background:#339;
-    border:2px solid #06c;
-    
-    }
-    nav ul li.selected a {
-    color : #fff;
-    }
